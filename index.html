@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/estilo_index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+         
+        <header>
+            <ul class="grid">
+                <li class="menus"><img src="img/Logo.svg"></li>
+                <li class="busca">
+                    <input type="text" name="nome_projeto" class="entrada_dados_busca ajustes" placeholder="Busque por algo">
+                </li>
+                <li class="menus-right">
+                    <img src="img/icon_search.svg" class="busca_icone">
+                    <img src="img/icon_menu.svg" class="menu_icone">
+                    <div class="user">
+                        <ul class="item-menu">
+                            <li class="item-menu-alinhamento"><img src="img/Photo.png"></li>
+                            <li class="item-menu-alinhamento"><p>Harry</p></li>
+                        </ul>
+                    </div>    
+                </li>
+            </ul>
+        </header>
+        <div class="grid-desktop">
+            <div class="menu-desktop">
+                <p class="titulo-secao">MENU</p>
+                <ul>
+                    <li class="item-menu">
+                        <ul>
+                            <li class="item-menu-alinhamento-img"><img src="img/Icon_editor_cod.svg"></li>
+                            <li class="item-menu-alinhamento"><p>Editor de código</p></li>
+                        </ul>
+                    </li>
+                    <li class="item-menu">
+                        <ul>
+                            <li class="item-menu-alinhamento-img"><img src="img/Icon_comunidade.svg"></li>
+                            <li class="item-menu-alinhamento"><p>Comunidade</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <section>
+                    <div class="fundo-editor">
+                        <div class="editor-code">
+                            <img src="img/mac_buttons.svg" class="mac_buttons">
+                            <textarea class="editor-code" rows="10" cols="10"></textarea>
+                        </div>                
+                    </div>
+                    <button class="botao-padrao">Visualizar com o highlight</button>
+                </section>
+            </div>
+            <div class="menu_direito">
+                <section>
+                    <p class="titulo-secao">SEU PROJETO</p>
+                    <input type="text" name="nome_projeto" class="entrada_dados" placeholder="Nome do seu projeto">
+                    <textarea class="entrada_dados" rows="5" cols="2" placeholder="Descrição do seu projeto"></textarea>
+                </section>
+                <section>
+                    <p class="titulo-secao">PERSONALIZAÇÃO</p>
+                    <div>
+                        <select class="entrada_dados_personalizar">
+                            <option class="entrada_dados">JavaScript</option>
+                            <option class="entrada_dados">Python</option>
+                            <option class="entrada_dados">C#</option>
+                        </select>
+                        <div class="box_border">
+                            <div class="color">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="botao-salvar tipo-letra">Salvar projeto</button>   
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

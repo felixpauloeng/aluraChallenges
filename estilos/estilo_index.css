@@ -1,0 +1,266 @@
+body{
+    background: #051D3B;
+    margin: 27px 16px 0 16px;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    align-content: space-between;
+}
+
+.menus{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    justify-content: center;
+}
+
+.menus-right{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.fundo-editor{
+    background: #6BD1FF;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 40px 0 32px 0;
+}
+
+.editor-code{
+    background: #141414;
+    border-radius: 8px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto Mono';
+    padding: 0 8px;
+    overflow: hidden;
+    min-height: 100px;
+    border: none
+}
+
+.mac_buttons{
+    margin: 16px 8px;
+}
+
+.botao-padrao{
+    width: 100%;
+    background: rgba(80, 129, 251, 0.08);
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.botao-salvar{
+    padding: 16px 0;
+    width: 100%;
+    margin: 32px 0 40px 0;
+    background: #5081FB;
+    border-radius: 8px;
+    color: #051D3B;
+    border: none;
+}
+
+.entrada_dados, .entrada_dados_personalizar{
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    padding: 16px 14px;
+    margin: 16px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.tipo-letra{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titulo-secao{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    margin: 40px 0 0 0;
+}
+
+.texto_padrao{
+    color:white;
+}
+
+.box_border{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.color{
+    height: 40px;
+    background: #6BD1FF;
+    margin: 8px;
+    border-radius: 4px;
+}
+
+.busca{
+    display:none;
+}
+
+.menu-desktop{
+    display: none;
+}
+
+.user{
+    display: none;
+}
+
+@media screen and (min-width: 600px){
+    
+    .entrada_dados_personalizar{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 16px 8px 0 0;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 150px 1fr 50px;
+    }
+
+    .box_border{
+        display: inline-block;
+        margin: 16px 0 0 8px;
+        width: 48%;
+    }
+
+    .busca_icone{
+        display: none;
+    }
+
+    .busca{
+        display: inline-block;
+        margin: 0 40px;
+        vertical-align: top;
+    }
+
+    .ajustes{
+        display: inline-block;
+    }
+
+    .header{
+        display: inline-block;
+    }
+
+    .menus{
+        width: 150px;
+        margin: 10px 0 0 0;
+    }
+
+    .menus-right{
+        width: 50px;
+    }
+
+    .entrada_dados_busca{
+        background: rgba(255, 255, 255, 0.16);
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        height: 56px;
+        padding: 16px 14px;
+        margin: 0;
+        font-size: 16px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .user{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    body{
+        margin: 32px auto;
+        width: 1440px;
+    }
+
+    .menu-desktop{
+        display: block;
+    }
+    .grid-desktop, .grid{
+        display: grid;
+        grid-template-columns: 1fr 750px 1fr;
+    }
+
+    .entrada_dados, .entrada_dados_personalizar{
+        background: rgba(255, 255, 255, 0.16);
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        height: 56px;
+        padding: 16px 14px;
+        margin: 16px 0;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .box_border{
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu_direito{
+        margin: 0 0 0 40px;
+    }
+
+    .busca{
+        margin: 0;
+    }
+
+    .item-menu-alinhamento{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 16px 0 0 16px;
+    }
+
+    .item-menu-alinhamento-img{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 16px 0 0 0;
+    }
+
+    .menu_icone{
+        display: none;
+    }
+
+    .menus-right{
+        width: 100%;
+    }
+
+    .user{
+        display: block;
+    }
+
+
+}
+
+
